@@ -8,6 +8,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
     color: #333;
+    font-size: 20px; /* Increase the default font size */
 }
 
 /* Navigation styles */
@@ -15,12 +16,12 @@ header {
     background-color: #333;
     color: #fff;
     text-align: center;
-    padding: 10px 0;
+    padding: 20px 0;
 }
 
 /* Style the name in the header */
 .name {
-    font-size: 30px;
+    font-size: 36px; /* Increase the name's font size */
     font-weight: bold;
     color: #fff;
     margin: 20px 0;
@@ -28,11 +29,28 @@ header {
 
 /* Section styles */
 section {
-    max-width: 600px; /* Adjust the width as desired */
-    margin-top: 20px;
-    margin: 20px auto 20px; /* Center the section horizontally */
-    padding: 50px;
+    max-width: 800px;
+    margin: 50px auto; /* Keep the section margins the same */
+    padding: 40px; /* Increase the padding inside the sections */
     background-color: #fff;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, .2); /* Add a subtle shadow */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the navbar links */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 24px; /* Increase the font size of the navbar links */
 }
