@@ -18,26 +18,9 @@ header {
     padding: 10px 0;
 }
 
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav li {
-    display: inline-block;
-    margin-right: 20px;
-}
-
-nav a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: bold;
-    font-size: 18px;
-}
-
 /* Style the name in the header */
 .name {
-    font-size: 24px;
+    font-size: 30px;
     font-weight: bold;
     color: #fff;
     margin: 20px 0;
@@ -45,6 +28,11 @@ nav a {
 
 /* Section styles */
 section {
-    padding: 20px;
-    text-align: center;
+    max-width: 600px; /* Adjust the width as desired */
+    margin-top: 20px;
+    margin: 20px auto 20px; /* Center the section horizontally */
+    padding: 50px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .2); /* Add a subtle shadow */
 }
